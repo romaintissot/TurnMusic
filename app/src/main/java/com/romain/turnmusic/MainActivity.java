@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
     }
 
-    //data return
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
